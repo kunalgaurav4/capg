@@ -1,5 +1,4 @@
-package lab3;
-
+package com.cg.Char;
 
 import java.util.Scanner;
 
@@ -8,7 +7,6 @@ public class Exercise5 {
    public static void main(String[] args) {
 	
 	   Scanner sc = new Scanner(System.in);
-	   System.out.println("Enter a line: ");
 	   String a = sc.nextLine();
 	   String b[] = a.split(" ");
 	   int x = b.length;
